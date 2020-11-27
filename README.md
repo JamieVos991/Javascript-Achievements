@@ -13,7 +13,7 @@
 In het het bestand  [index.html](index.html) houd je een overzicht bij van wat je hebt gedaan met linkjes naar de opdrachten.
 **Dit overzicht zet je op je eigen Ma Cloud website en houd je up-to-date!**
 
-Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
-**HIER de link plaatsen**
+**Hier is de link van de live versie van mijn website:** http://31694.hosts1.ma-cloud.nl/Javascript-Achievements/Javascript%20Achievements.html  
+
 
 
