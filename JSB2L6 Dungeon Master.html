@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dungeon Master</title>
+</head>
+
+<body>
+    <button id="button">Click me</button>
+</body>
+<script>
+    //Your logic goes here
+    let button = document.getElementById("button")
+    button.addEventListener("click", rollingForStats)
+
+    function rollingForStats() {
+        let array1 = Math.floor(Math.random() * 6) + 1;
+        let array2 = Math.floor(Math.random() * 6) + 1;
+        let array3 = Math.floor(Math.random() * 6) + 1;
+        let array4 = Math.floor(Math.random() * 6) + 1;
+        let array = [array1, array2, array3, array4]
+        array.sort();
+        console.log(array)
+    }
+</script>
+
+</html>
