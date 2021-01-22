@@ -7,20 +7,31 @@
 
 <body>
     <button id="button">Click me</button>
+    <p id="Test"></p>
+    <p id="Totaal"></p>
 </body>
 <script>
-    //Your logic goes here
     let button = document.getElementById("button")
     button.addEventListener("click", rollingForStats)
+
+    let array = []
 
     function rollingForStats() {
         let array1 = Math.floor(Math.random() * 6) + 1;
         let array2 = Math.floor(Math.random() * 6) + 1;
         let array3 = Math.floor(Math.random() * 6) + 1;
         let array4 = Math.floor(Math.random() * 6) + 1;
-        let array = [array1, array2, array3, array4]
+        array = [array1, array2, array3, array4]
+        let som = 0
         array.sort();
+        Test.innerHTML = array;
+        for (var i = array.length -1; i > 0; i--) {
+            som = som + array[i]
+        }
+        array = []
+        document.getElementById("Totaal").textContent = som;
         console.log(array)
+        console.log(som)
     }
 </script>
 
